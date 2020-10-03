@@ -1,0 +1,59 @@
+#body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: seagreen;
+    background-image: url("vans.jpg.jpg");
+    background-size: 50%;
+    background-attachment: scroll;
+}
+#table{
+    font-family: sans-serif;
+    font-size: 25px;
+    background-color: seagreen;
+    color: whitesmoke;
+    margin-left: 290px;
+    margin-right: 290px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: left;
+    border: solid whitesmoke 10px;
+    width: 750px;
+    height: 200px;
+    border-collapse: collapse;
+    
+}
+
+#sunset{
+    border: 10px;
+    margin: 10px;
+    padding: 10px;s
+}
+
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+
+h1{
+    border: 10px solid whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size:  bold 200px;
+    color: whitesmoke ;
+    font-family: 'Times New Roman', Times, serif ;
+    background-color: seagreen;
+    background-position: center;
+
+
+}
