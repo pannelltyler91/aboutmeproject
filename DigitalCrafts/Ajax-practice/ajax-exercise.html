@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perros on Demand</title>
+    <style>
+        #button{
+            display:flex;
+            justify-items: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="page">
+    <button id="button" style="color:darkslateblue; font-weight:bold; background-color:darksalmon;">
+        Generate Doggo
+    </button>
+    <div id="dogPicture"></div>
+</div>
+  <script>
+ var button = document.getElementById('button')
+
+ button.addEventListener('click', funkshin => {
+   button.innerHTML = 'Generating Doggo...'
+   fetch('https://dog.ceo/api/breeds/image/random')
+   .then(response => response.json())
+  .then(data => {
+document.getElementById('dogPicture').innerHTML = `<img src='${data.message}'/>`;
+document.getElementById('button').innerHTML = 'Generate Doggo';});
+ 
+
+ })
+
+ 
+
+  </script>  
+</body>
+</html>
